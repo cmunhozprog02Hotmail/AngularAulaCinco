@@ -2,9 +2,7 @@ import { Component } from "@angular/core";
 
 @Component({
     selector:'myfirst',
-    template:`
-        <h1>My Fist Component</h1>
-    `
+    templateUrl:'./myfirst.component.html'
 })
 
 export class MyFirstComponent{
